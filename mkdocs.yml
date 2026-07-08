@@ -1,0 +1,172 @@
+﻿site_name: Enterprise Auth0 Guide
+site_description: Enterprise reference architecture and implementation guide for Auth0.
+site_author: Enterprise Identity Platform Team
+site_url: https://example.github.io/enterprise-auth0-guide/
+repo_name: enterprise-auth0-guide
+repo_url: https://github.com/example/enterprise-auth0-guide
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 Enterprise Identity Platform Team
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/example/enterprise-auth0-guide
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Prerequisites: getting-started/prerequisites.md
+      - Quickstart: getting-started/quickstart.md
+      - Documentation Standards: getting-started/documentation-standards.md
+  - Architecture:
+      - Enterprise Architecture: architecture/enterprise-architecture.md
+      - Tenant Strategy: architecture/tenant-strategy.md
+      - Environment Strategy: architecture/environment-strategy.md
+      - Reference Diagrams: architecture/reference-diagrams.md
+      - Decision Records: architecture/decision-records.md
+  - Core Auth0 Features:
+      - Feature Overview: core-features/overview.md
+      - Tenant and Dashboard: core-features/tenant-dashboard.md
+      - Universal Login and SSO: core-features/universal-login-sso.md
+      - Authentication Methods: core-features/authentication-methods.md
+      - User Management: core-features/user-management.md
+      - Authorization and RBAC: core-features/authorization-rbac.md
+      - Organizations and B2B: core-features/organizations-b2b.md
+      - Actions and Extensibility: core-features/actions-extensibility.md
+      - Security and Attack Protection: core-features/security-attack-protection.md
+      - Logs, Events, and Monitoring: core-features/logs-events-monitoring.md
+      - APIs, SDKs, and Management API: core-features/apis-sdks-management-api.md
+  - Identity Foundations:
+      - Tenants: identity-foundations/tenants.md
+      - Applications: identity-foundations/applications.md
+      - APIs and Resources: identity-foundations/apis-and-resources.md
+      - Connections: identity-foundations/connections.md
+      - Universal Login: identity-foundations/universal-login.md
+      - Organizations: identity-foundations/organizations.md
+  - Auth Flows:
+      - OAuth 2.0 and OIDC: auth-flows/oauth-oidc.md
+      - Authorization Code with PKCE: auth-flows/authorization-code-pkce.md
+      - Machine to Machine: auth-flows/machine-to-machine.md
+      - SAML: auth-flows/saml.md
+      - Device Authorization: auth-flows/device-authorization.md
+  - Enterprise Federation:
+      - Overview: enterprise-federation/overview.md
+      - Azure AD: enterprise-federation/azure-ad.md
+      - ADFS: enterprise-federation/adfs.md
+      - Okta: enterprise-federation/okta.md
+      - Google Workspace: enterprise-federation/google-workspace.md
+      - SCIM Provisioning: enterprise-federation/scim-provisioning.md
+  - Security:
+      - Security Baseline: security/security-baseline.md
+      - MFA: security/mfa.md
+      - RBAC: security/rbac.md
+      - API Authorization: security/api-authorization.md
+      - Token Best Practices: security/token-best-practices.md
+      - Session Management: security/session-management.md
+      - Secrets Management: security/secrets-management.md
+  - Implementation:
+      - Implementation Overview: implementation/overview.md
+      - Single Page Applications: implementation/spa.md
+      - Regular Web Applications: implementation/web-apps.md
+      - Native and Mobile Apps: implementation/mobile-apps.md
+      - API Services: implementation/api-services.md
+      - Actions: implementation/actions.md
+      - Rules Migration: implementation/rules-migration.md
+  - Operations:
+      - Operations Model: operations/operations-model.md
+      - Deployment and Release: operations/deployment-release.md
+      - Monitoring: operations/monitoring.md
+      - Logs and Audit: operations/logs-audit.md
+      - Compliance: operations/compliance.md
+      - Incident Response: operations/incident-response.md
+  - Automation:
+      - Automation Overview: automation/overview.md
+      - Terraform: automation/terraform.md
+      - Management API: automation/management-api.md
+      - CI/CD: automation/ci-cd.md
+      - Configuration Promotion: automation/configuration-promotion.md
+  - Patterns:
+      - Multi-Tenant SaaS: patterns/multi-tenant-saas.md
+      - B2B Identity: patterns/b2b-identity.md
+      - Zero Trust: patterns/zero-trust.md
+      - Migration Strategy: patterns/migration-strategy.md
+      - Break Glass Access: patterns/break-glass-access.md
+  - Reference:
+      - Glossary: reference/glossary.md
+      - Configuration Checklist: reference/configuration-checklist.md
+      - Troubleshooting: reference/troubleshooting.md
+      - FAQ: reference/faq.md
+      - Release Notes: reference/release-notes.md
+
