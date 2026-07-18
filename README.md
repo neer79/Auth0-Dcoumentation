@@ -1,4 +1,4 @@
-﻿# Enterprise Auth0 Guide
+# Enterprise Auth0 Guide
 
 Professional MkDocs Material documentation for designing, implementing, and operating Auth0 in enterprise environments.
 
@@ -6,7 +6,8 @@ Professional MkDocs Material documentation for designing, implementing, and oper
 
 - MkDocs Material configuration with search, navigation, admonitions, tabs, and Mermaid diagram support.
 - A structured documentation tree modeled after enterprise cloud documentation patterns.
-- Placeholder pages for architecture, implementation, security, operations, automation, patterns, and reference.
+- Auth0-specific core feature documentation for applications, APIs, connections, Universal Login, custom domains, Actions, MFA, attack protection, logs, SDKs, and the Management API.
+- Deep-dive Auth0 solution playbooks for architecture, business use cases, integration patterns, application onboarding, customer IdP onboarding, Actions, MFA methods, passwordless, email/SMS customization, custom error pages, key rotation, tenant setup, and ongoing support.
 - GitHub Actions workflow for publishing to GitHub Pages.
 - Contribution, changelog, and roadmap documentation.
 
@@ -21,3 +22,5 @@ mkdocs build --strict
 ## Publishing
 
 The included GitHub Actions workflow builds the site with `mkdocs build --strict` and deploys the generated `site/` directory to GitHub Pages from the default branch.
+
+

@@ -1,4 +1,4 @@
-﻿site_name: Enterprise Auth0 Guide
+site_name: Enterprise Auth0 Guide
 site_description: Enterprise reference architecture and implementation guide for Auth0.
 site_author: Enterprise Identity Platform Team
 site_url: https://example.github.io/enterprise-auth0-guide/
@@ -99,15 +99,57 @@ nav:
   - Core Auth0 Features:
       - Feature Overview: core-features/overview.md
       - Tenant and Dashboard: core-features/tenant-dashboard.md
+      - Application Settings: core-features/application-settings.md
+      - APIs and Resource Servers: core-features/apis-resource-servers.md
+      - Connection Types: core-features/connection-types.md
       - Universal Login and SSO: core-features/universal-login-sso.md
+      - Custom Domains, Branding, and Email: core-features/custom-domains-branding-email.md
       - Authentication Methods: core-features/authentication-methods.md
       - User Management: core-features/user-management.md
       - Authorization and RBAC: core-features/authorization-rbac.md
       - Organizations and B2B: core-features/organizations-b2b.md
       - Actions and Extensibility: core-features/actions-extensibility.md
+      - Action Triggers and Runtime: core-features/action-triggers-runtime.md
       - Security and Attack Protection: core-features/security-attack-protection.md
+      - MFA and Adaptive Controls: core-features/mfa-adaptive-controls.md
       - Logs, Events, and Monitoring: core-features/logs-events-monitoring.md
+      - Log Event Taxonomy: core-features/log-event-taxonomy.md
       - APIs, SDKs, and Management API: core-features/apis-sdks-management-api.md
+      - Management API Scopes: core-features/management-api-scopes.md
+  - Actions Code Customization:
+      - Overview: actions-code-customization/overview.md
+      - Write Your First Action: actions-code-customization/write-first-action.md
+      - Actions Modules and Dependencies: actions-code-customization/modules-dependencies.md
+      - Action Coding Guidelines: actions-code-customization/coding-guidelines.md
+      - Trigger Code Library: actions-code-customization/trigger-code-library.md
+      - Post Login Trigger: actions-code-customization/post-login-trigger.md
+      - Pre User Registration Trigger: actions-code-customization/pre-user-registration-trigger.md
+      - Post User Registration Trigger: actions-code-customization/post-user-registration-trigger.md
+      - Machine to Machine Trigger: actions-code-customization/machine-to-machine-trigger.md
+      - Action Use Cases: actions-code-customization/action-use-cases.md
+      - Transaction Metadata: actions-code-customization/transaction-metadata.md
+      - Actions Limitations: actions-code-customization/limitations.md
+      - Real-time Logs: actions-code-customization/realtime-logs.md
+      - Templates for Actions: actions-code-customization/templates.md
+      - NPM, Unit Tests, and Dependencies: actions-code-customization/npm-unit-tests-dependencies.md
+      - Manage Versions and Test Actions: actions-code-customization/versions-testing.md
+      - Migrate Rules and Hooks: actions-code-customization/migrate-rules-hooks.md
+  - Auth0 Deep Dives:
+      - Overview: auth0-deep-dives/overview.md
+      - Business Use Cases: auth0-deep-dives/business-use-cases.md
+      - Reference Architecture: auth0-deep-dives/reference-architecture.md
+      - Integration Patterns: auth0-deep-dives/integration-patterns.md
+      - Application Onboarding Solution: auth0-deep-dives/application-onboarding-solution.md
+      - Customer Identity Provider Onboarding: auth0-deep-dives/customer-idp-onboarding.md
+      - Actions Patterns: auth0-deep-dives/actions-patterns.md
+      - MFA Methods: auth0-deep-dives/mfa-methods.md
+      - Passwordless: auth0-deep-dives/passwordless.md
+      - Email Notification Customization: auth0-deep-dives/email-notification-customization.md
+      - Custom Error Pages: auth0-deep-dives/custom-error-pages.md
+      - SMS Services: auth0-deep-dives/sms-services.md
+      - Key Rotation: auth0-deep-dives/key-rotation.md
+      - Tenant Setup: auth0-deep-dives/tenant-setup.md
+      - Ongoing Support Model: auth0-deep-dives/ongoing-support.md
   - Identity Foundations:
       - Tenants: identity-foundations/tenants.md
       - Applications: identity-foundations/applications.md
@@ -169,4 +211,7 @@ nav:
       - Troubleshooting: reference/troubleshooting.md
       - FAQ: reference/faq.md
       - Release Notes: reference/release-notes.md
+
+
+
 

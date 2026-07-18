@@ -1,4 +1,4 @@
-﻿# Enterprise Auth0 Guide
+# Enterprise Auth0 Guide
 
 Use this guide to plan, implement, secure, automate, and operate Auth0 as an enterprise identity platform.
 
@@ -43,6 +43,7 @@ Start with architecture if you are designing a new platform. Start with implemen
 | Goal | Start here |
 | --- | --- |
 | Understand Auth0 core capabilities | [Core Auth0 feature overview](core-features/overview.md) |
+| Design detailed Auth0 solutions | [Auth0 Deep Dives](auth0-deep-dives/overview.md) |
 | Design a new enterprise Auth0 platform | [Enterprise Architecture](architecture/enterprise-architecture.md) |
 | Choose a tenant and environment model | [Tenant Strategy](architecture/tenant-strategy.md) |
 | Integrate a browser app | [Single Page Applications](implementation/spa.md) |
@@ -62,6 +63,8 @@ Start with architecture if you are designing a new platform. Start with implemen
 
 - Read [Overview](getting-started/overview.md) for the adoption path.
 - Review [Core Auth0 feature overview](core-features/overview.md) to understand the product capability map.
+- Use [Auth0 Deep Dives](auth0-deep-dives/overview.md) for architecture, onboarding, MFA, passwordless, Actions, communications, key rotation, and support runbooks.
 - Review [Documentation Standards](getting-started/documentation-standards.md) before adding new pages.
 - Use [Configuration Checklist](reference/configuration-checklist.md) before production launch.
+
 

@@ -1,4 +1,4 @@
-﻿# Release notes
+# Release notes
 
 Use this page to summarize published documentation releases. Keep release notes concise, dated, and focused on material documentation changes.
 
@@ -11,6 +11,8 @@ Use this page to summarize published documentation releases. Keep release notes 
 - Mermaid diagram support.
 - GitHub Pages deployment workflow.
 - Detailed first-pass content for all major documentation pages.
+- Added Auth0-specific core feature pages for Dashboard configuration, applications, APIs, connections, custom domains, Actions runtime, MFA, log taxonomy, and Management API scopes.
+- Added Auth0 deep-dive pages for business use cases, reference architecture, integration patterns, application onboarding, customer IdP onboarding, Actions patterns, MFA methods, passwordless, email notifications, custom error pages, SMS services, key rotation, tenant setup, and ongoing support.
 
 ### Known gaps
 
@@ -31,3 +33,5 @@ Use this page to summarize published documentation releases. Keep release notes 
 
 ### Known gaps
 ```
+
+

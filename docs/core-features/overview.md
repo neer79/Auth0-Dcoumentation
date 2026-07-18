@@ -48,6 +48,19 @@ Auth0 features should not be enabled one at a time without a platform model. For
 - What events are monitored.
 - What evidence is retained.
 
+## Detailed Auth0 configuration references
+
+Use these pages when you need Dashboard-level feature detail:
+
+- [Application Settings](application-settings.md) for client types, URIs, grant types, and secrets.
+- [APIs and Resource Servers](apis-resource-servers.md) for audiences, scopes, token settings, and API validation.
+- [Connection Types](connection-types.md) for database, enterprise, social, passwordless, and custom database connections.
+- [Custom Domains, Branding, and Email](custom-domains-branding-email.md) for production login domains and user-facing templates.
+- [Action Triggers and Runtime](action-triggers-runtime.md) for trigger behavior, versioning, claims, and failure design.
+- [MFA and Adaptive Controls](mfa-adaptive-controls.md) for factors, enrollment, step-up, and monitoring.
+- [Log Event Taxonomy](log-event-taxonomy.md) for operational event grouping and alert design.
+- [Management API Scopes](management-api-scopes.md) for automation privilege design.
+
 ## Recommended reading path
 
 1. Read [Tenant and Dashboard](tenant-dashboard.md) to understand platform boundaries.
@@ -55,3 +68,4 @@ Auth0 features should not be enabled one at a time without a platform model. For
 3. Read [Authentication Methods](authentication-methods.md) and [Authorization and RBAC](authorization-rbac.md) for core runtime behavior.
 4. Read [Actions and Extensibility](actions-extensibility.md) for customization points.
 5. Read [Security and Attack Protection](security-attack-protection.md) and [Logs, Events, and Monitoring](logs-events-monitoring.md) before production.
+
