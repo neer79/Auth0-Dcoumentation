@@ -1,4 +1,4 @@
-﻿# Migration Strategy
+# Migration Strategy
 
 Migration strategy defines how applications, users, identity providers, and operational processes move from existing identity systems to Auth0.
 
@@ -36,3 +36,7 @@ Migration strategy defines how applications, users, identity providers, and oper
 - [ ] Monitoring is active.
 - [ ] Pilot users are identified.
 - [ ] Legacy configuration retirement is scheduled.
+
+## CIAM platform-specific playbooks
+
+For a detailed Akamai Identity Cloud migration plan, including credential-path decisions, federation, MFA, regional architecture, test scenarios, and operational acceptance, see the [Akamai Identity Cloud to Auth0 Migration Playbook](akamai-aic-to-auth0.md).

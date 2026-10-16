@@ -1,11 +1,11 @@
 site_name: Enterprise Auth0 Guide
 site_description: Enterprise reference architecture and implementation guide for Auth0.
-site_author: Enterprise Identity Platform Team
-site_url: https://example.github.io/enterprise-auth0-guide/
-repo_name: enterprise-auth0-guide
-repo_url: https://github.com/example/enterprise-auth0-guide
+site_author: Neeraj Kumar Shukla | JM Consulting
+site_url: https://neer79.github.io/Auth0-Dcoumentation/
+repo_name: neer79/Auth0-Dcoumentation
+repo_url: https://github.com/neer79/Auth0-Dcoumentation
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2026 Enterprise Identity Platform Team
+copyright: Copyright &copy; 2026 Neeraj Kumar Shukla | JM Consulting
 
 theme:
   name: material
@@ -81,7 +81,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/example/enterprise-auth0-guide
+      link: https://github.com/neer79/Auth0-Dcoumentation
 
 nav:
   - Home: index.md
@@ -93,6 +93,7 @@ nav:
   - Architecture:
       - Enterprise Architecture: architecture/enterprise-architecture.md
       - Tenant Strategy: architecture/tenant-strategy.md
+      - CIAM Architecture Blueprint: architecture/auth0-ciam-architecture-blueprint.md
       - Environment Strategy: architecture/environment-strategy.md
       - Reference Diagrams: architecture/reference-diagrams.md
       - Decision Records: architecture/decision-records.md
@@ -121,19 +122,6 @@ nav:
       - Write Your First Action: actions-code-customization/write-first-action.md
       - Actions Modules and Dependencies: actions-code-customization/modules-dependencies.md
       - Action Coding Guidelines: actions-code-customization/coding-guidelines.md
-      - Trigger Code Library: actions-code-customization/trigger-code-library.md
-      - Post Login Trigger: actions-code-customization/post-login-trigger.md
-      - Pre User Registration Trigger: actions-code-customization/pre-user-registration-trigger.md
-      - Post User Registration Trigger: actions-code-customization/post-user-registration-trigger.md
-      - Machine to Machine Trigger: actions-code-customization/machine-to-machine-trigger.md
-      - Action Use Cases: actions-code-customization/action-use-cases.md
-      - Transaction Metadata: actions-code-customization/transaction-metadata.md
-      - Actions Limitations: actions-code-customization/limitations.md
-      - Real-time Logs: actions-code-customization/realtime-logs.md
-      - Templates for Actions: actions-code-customization/templates.md
-      - NPM, Unit Tests, and Dependencies: actions-code-customization/npm-unit-tests-dependencies.md
-      - Manage Versions and Test Actions: actions-code-customization/versions-testing.md
-      - Migrate Rules and Hooks: actions-code-customization/migrate-rules-hooks.md
   - Auth0 Deep Dives:
       - Overview: auth0-deep-dives/overview.md
       - Business Use Cases: auth0-deep-dives/business-use-cases.md
@@ -204,6 +192,7 @@ nav:
       - B2B Identity: patterns/b2b-identity.md
       - Zero Trust: patterns/zero-trust.md
       - Migration Strategy: patterns/migration-strategy.md
+      - Akamai AIC to Auth0: patterns/akamai-aic-to-auth0.md
       - Break Glass Access: patterns/break-glass-access.md
   - Reference:
       - Glossary: reference/glossary.md
