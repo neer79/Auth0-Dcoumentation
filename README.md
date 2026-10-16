@@ -1,6 +1,6 @@
 # Enterprise Auth0 Guide
 
-Professional MkDocs Material documentation for designing, implementing, and operating Auth0 in enterprise environments.
+Professional MkDocs Material documentation for designing, implementing, and operating Auth0 in enterprise environments. The guide is maintained by Neeraj Kumar Shukla / JM Consulting.
 
 ## What is included
 
@@ -10,6 +10,10 @@ Professional MkDocs Material documentation for designing, implementing, and oper
 - Deep-dive Auth0 solution playbooks for architecture, business use cases, integration patterns, application onboarding, customer IdP onboarding, Actions, MFA methods, passwordless, email/SMS customization, custom error pages, key rotation, tenant setup, and ongoing support.
 - GitHub Actions workflow for publishing to GitHub Pages.
 - Contribution, changelog, and roadmap documentation.
+
+## Published guide
+
+[Open the Enterprise Auth0 Guide](https://neer79.github.io/Auth0-Dcoumentation/). The source and issue tracker are in [neer79/Auth0-Dcoumentation](https://github.com/neer79/Auth0-Dcoumentation).
 
 ## Local development
 
