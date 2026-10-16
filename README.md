@@ -11,9 +11,9 @@ Professional MkDocs Material documentation for designing, implementing, and oper
 - GitHub Actions workflow for publishing to GitHub Pages.
 - Contribution, changelog, and roadmap documentation.
 
-## Published guide
+## Source and publication
 
-[Open the Enterprise Auth0 Guide](https://neer79.github.io/Auth0-Dcoumentation/). The source and issue tracker are in [neer79/Auth0-Dcoumentation](https://github.com/neer79/Auth0-Dcoumentation).
+The source and issue tracker are in [neer79/Auth0-Dcoumentation](https://github.com/neer79/Auth0-Dcoumentation). The intended GitHub Pages URL is <https://neer79.github.io/Auth0-Dcoumentation/> after Pages is enabled for this repository and a deployment completes.
 
 ## Local development
 
